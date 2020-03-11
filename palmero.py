@@ -15,6 +15,8 @@ class Palmero:
 
         file: The file to encrypt\n
         password: Password used to encrypt\n
+        outname: (Optional) Name of output file\n
+        delete_original: (Optional, On by default) Delete the original file\n
         
         Error ImportError: Usually raised if pycryptodomex is not found\n
         Error FileNotFoundError: Raised if the file does not exist\n
@@ -41,6 +43,8 @@ class Palmero:
 
         file: The file to decrypt\n
         password: Password used to encrypt\n
+        outfile: (Optional, Off by default) Write the decrypted data back to original file\n
+        keyfile: (Optional) Specify location of machine key, saved in a text file\n
         
         Error PasswordError: Password is incorrect\n
         Error ImportError: Usually raised if pycryptodomex is not found\n
@@ -78,6 +82,7 @@ class Palmero:
         Generate a key for decryption on other devices
 
         password: Password used to decrypt file\n
+        outfile: (Optional, Off by default) Write the key to a file named 'key.txt'\n
         
         Error ImportError: Usually raised if pycryptodomex is not found\n
         '''
