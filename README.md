@@ -1,5 +1,8 @@
 # Palmero
 Palmero is a hyper-simplification of encryption in Python.
+```
+pip install palmero
+```
 
 ## Features
 
