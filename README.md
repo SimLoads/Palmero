@@ -1,4 +1,5 @@
 # Palmero
+[![Requirements Status](https://requires.io/github/SimLoads/Palmero/requirements.svg?branch=master)](https://requires.io/github/SimLoads/Palmero/requirements/?branch=master)
 <a href="https://github.com/SimLoads/Palmero/blob/master/LICENSE" title="License"><img src="https://img.shields.io/github/license/SimLoads/palmero"></a> <a href="https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=DYF7QMKWBK8PS&source=url" title="Support project"><img src="https://img.shields.io/badge/Support%20project-paypal-brightgreen.svg"></a> 
 
 Palmero is a hyper-simplification of encryption in Python.
